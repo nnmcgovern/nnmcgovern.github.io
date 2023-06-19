@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100wv;
+  width: 100vw;
   background-color: #9e00bd;
   /* background-color: #2600ff; */
   background-image: url("/img/brick-wall.png");
