@@ -58,6 +58,18 @@ a {
   text-decoration: none;
 }
 
+a#github:hover {
+  background-image: url("img/github_logo2_white.png");
+}
+
+a#linkedin:hover {
+  background-image: url("img/linkedin_logo_white.png");
+}
+
+a#resume:hover {
+  background-image: url("img/resume_white.png");
+}
+
 @media screen and (max-width: 576px) {
   ul {
     flex-direction: column;
