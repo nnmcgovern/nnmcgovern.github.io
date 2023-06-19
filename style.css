@@ -5,24 +5,46 @@ body {
   align-items: center;
   height: 100vh;
   width: 100wv;
-  background-color: #990087;
+  background-color: #9e00bd;
+  /* background-color: #2600ff; */
   background-image: url("/img/brick-wall.png");
+
 }
 
 img {
   border-radius: 25px;
   width: 250px;
+  border: solid 3px;
 }
 
 h1,
 p,
 a {
-  color: white;
+  color: #000000;
   font-family: Jost;
 }
 
-h1 {
-  /* margin: 0; */
+p {
+  font-size: 15pt;
+  margin: 0 0 10px 0;
+}
+
+.a-image {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+#github {
+  background-image: url("/img/github_logo2_resize.png");
+}
+
+#linkedin {
+  background-image: url("/img/linkedin_logo_resize.png");
+}
+
+#resume {
+  background-image: url("/img/resume_resize.png");
 }
 
 ul {
@@ -32,10 +54,12 @@ ul {
   width: 50%;
 }
 
-li {
-  /* display: inline; */
-}
-
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  ul {
+    flex-direction: column;
+  }
 }
